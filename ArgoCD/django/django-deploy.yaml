@@ -23,14 +23,14 @@ spec:
         resources:
           requests:
             cpu: "500m"
-        livenessProbe:
-          httpGet:
-            path: / 
-            port: 8000
-        readinessProbe:
-          httpGet:
-            path: / 
-            port: 8000
+#        livenessProbe:
+#          httpGet:
+#            path: / 
+##            port: 8000
+ #       readinessProbe:
+ #         httpGet:
+ #           path: / 
+ #           port: 8000
 
 #      affinity:
 #        podAntiAffinity:
