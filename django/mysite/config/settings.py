@@ -81,14 +81,13 @@ CRONJOBS = [
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django',
-        'USER' : 'django',
-        'PASSWORD' : 'python3.10',
-        'HOST' : 'mysql-cluster.mysql-cluster.svc.cluster.local',
-        'PORT' : '6447',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST' : 'hippo-ha.postgres-operator.svc.cluster.local',
+        'NAME' : 'park',
+        'PORT' : '5432',
+        'USER' : 'admin',
+        'PASSWORD' : 'dkagh1.',
     },
-    
 }
 
 
